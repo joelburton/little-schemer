@@ -27,7 +27,7 @@ Some things that changed:
    
   This works in modern Scheme, but widely preferred is::
 
-    (define myfunc (arg1 arg2)
+    (define (myfunc arg1 arg2)
       ...)
 
 - Instead of using "lambda" for lambda functions, λ is used for brevity
