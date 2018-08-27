@@ -22,4 +22,5 @@
 
 (check-true (member? 'meat '(mashed potatoes and meat gravy)))
 (check-false (member? 'liver '(bagels and lox)))
-                                   
+
+(provide member?)
