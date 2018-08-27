@@ -2,6 +2,8 @@
 
 (require rackunit)
 (require "1.rkt")
+(provide operator 1st-sub-exp 2nd-sub-exp)
+
 
 ; numbered doesn't just look for "all numbers and math symbols",
 ; but (number|aexp symbol number|aexp)"  [this isn't super-clear
