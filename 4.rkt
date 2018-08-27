@@ -245,3 +245,6 @@
 
 (check-equal? (rempick-v2 3 '(lemon meringue salty pie))
               '(lemon meringue pie))
+
+
+(provide eqan?)
